@@ -1,7 +1,7 @@
 var search = instantsearch({
   // Replace with your own values
-  appId: "latency",
-  apiKey: "6be0576ff61c053d5f9a3225e2a90f76", // search only API key, no ADMIN key
+  appId: "IBBFDOQONG",
+  apiKey: "27140a358bbcd89a3019ee3bbf8ad72b", // search only API key, no ADMIN key
   indexName: "food",
   urlSync: true,
   searchParameters: {
@@ -32,3 +32,5 @@ search.addWidget(
 );
 
 search.start();
+
+console.log(search);
