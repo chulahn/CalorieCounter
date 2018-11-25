@@ -1,0 +1,15 @@
+{
+  "name": "caloriecounter",
+  "version": "1.0.0",
+  "description": "A calorie counter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chul Ahn",
+  "license": "ISC",
+  "dependencies": {
+    "algoliasearch": "^3.30.0",
+    "express": "^4.16.4"
+  }
+}
